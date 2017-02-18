@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Interactive Photo Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- Lightbox plugin -->
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+	<input id="search" name="search" placeholder="Find..." type="text" data-list=".list">
+	<div class="container popup-gallery clearfix">
+		<ul class="list">
+						
+			<li data-alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+				<figure>
+					<a class="image-popup" href="photos/01.jpg" title="Hay Bales <br>
+					I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+							<img src="photos/thumbnails/01.jpg" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+					</a>
+				</figure>
+			</li>
+
+			<li data-alt="The lake was so calm today. We had a great view of the snow on the mountains from here.">		
+			<figure>
+			<a href="photos/02.jpg" class="image-popup" title="Lake <br> 
+			The lake was so calm today. We had a great view of the snow on the mountains from here.">
+					<img src="photos/thumbnails/02.jpg" alt="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+			</a>
+			</figure>
+			</li>
+
+			<li data-alt="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+			<figure>
+			<a href="photos/03.jpg" class="image-popup" title="Canyon <br>
+			I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+					<img src="photos/thumbnails/03.jpg" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+			</a>
+			</figure>
+			</li>
+
+			<li data-alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+			<figure>
+				<a href="photos/04.jpg" class="image-popup" title="Iceberg <br>
+				It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+					<img src="photos/thumbnails/04.jpg" alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+				</a>
+			</figure>
+			</li>
+		
+			<li data-alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+			<figure>
+				<a href="photos/05.jpg" class="image-popup" title="Desert <br>
+				The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+					<img src="photos/thumbnails/05.jpg" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+				</a>
+			</figure>
+			</li>
+			
+			<li data-alt="Fall is coming, I love when the leaves on the trees start to change color.">
+			<figure>
+				<a href="photos/06.jpg" class="image-popup" title="Fall <br>
+				Fall is coming, I love when the leaves on the trees start to change color.">
+					<img src="photos/thumbnails/06.jpg" alt="Fall is coming, I love when the leaves on the trees start to change color.">
+				</a>
+			</figure>
+			</li>
+		
+			<li data-alt="I drove past this plantation yesterday, everything is so green!">
+			<figure>
+				<a href="photos/07.jpg" class="image-popup" title="Plantation <br>
+				I drove past this plantation yesterday, everything is so green!">
+					<img src="photos/thumbnails/07.jpg" alt="I drove past this plantation yesterday, everything is so green!">
+				</a>
+			</figure>
+			</li>
+		
+			<li data-alt="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+			<figure>
+				<a href="photos/08.jpg" class="image-popup" title="Dunes <br>
+				My summer vacation to the Oregon Coast. I love the sandy dunes!">
+					<img src="photos/thumbnails/08.jpg" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+				</a>
+			</figure>
+			</li>
+		
+			<li data-alt="We enjoyed a quiet stroll down this countryside lane.">
+			<figure>
+				<a href="photos/09.jpg" class="image-popup" title="Countryside Lane <br>
+				We enjoyed a quiet stroll down this countryside lane.">
+					<img src="photos/thumbnails/09.jpg" alt="We enjoyed a quiet stroll down this countryside lane.">
+				</a>
+			</figure>
+			</li>
+		
+			<li data-alt="Sunset at the coast! The sky turned a lovely shade of orange.">
+			<figure>
+				<a href="photos/10.jpg" class="image-popup" title="Sunset <br>
+				Sunset at the coast! The sky turned a lovely shade of orange.">
+					<img src="photos/thumbnails/10.jpg" alt="Sunset at the coast! The sky turned a lovely shade of orange.">
+				</a>
+			</figure>
+			</li>
+		
+			<li data-alt="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+			<figure>
+				<a href="photos/11.jpg" class="image-popup" title="Cave <br>
+				I did a tour of a cave today and the view of the landscape below was breathtaking.">
+					<img src="photos/thumbnails/11.jpg" alt="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+				</a>
+			</figure>
+			</li>
+		
+			<li data-alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+			<figure>
+				<a href="photos/12.jpg" class="image-popup" title="Bluebells <br>
+				I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+					<img src="photos/thumbnails/12.jpg" alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+				</a>
+			</figure>
+			</li>
+		</ul>
+	</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script>
+
+<!-- Hideseek JS file -->
+<script type="text/javascript" src="js/jquery.hideseek.min.js"></script>
+
+<script>
+// This will create a single gallery from all elements that have class "gallery-item"
+$('.image-popup').magnificPopup({
+  type: 'image',
+
+  gallery: {
+    enabled: true,
+  }
+
+  // image: {
+  // 	titleSrc: function(item) {
+  // 		return item.el.attr('title') + '<br>' + ('alt');
+  // 	} 
+  // }
+});
+
+$('#search').hideseek({
+    attribute: 'data-alt'
+});
+</script>
+	
+</body>
+</html>

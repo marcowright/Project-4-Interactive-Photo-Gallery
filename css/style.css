@@ -1,0 +1,123 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	text-align: center;
+}
+
+input:focus,
+img:focus {
+	outline: 0;
+	outline-color: #44F199;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+
+/* ---- Layout Containers ---- */
+
+.container {
+	text-align: center;
+	margin: auto;
+	padding-bottom: 2em;
+	
+}
+
+.container li {
+	display: inline-block;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/* ---- Page Elements ---- */
+
+input {
+	margin: 1.25em auto 1em;
+	display: block;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 4px solid #44F199;
+	padding-bottom: .5em;
+	font-size: 1.75em;
+	color: #32393F;
+
+}
+
+figure {
+	/*float: left;*/
+}
+
+img {
+	color: #44F199;
+}
+
+.image-popup img:hover {
+	outline-color: #44F199;
+	outline-style: solid;
+	outline-width: 4px;
+}
+
+}
+/* ---- Psuedo Classes ---- */
+
+
+figure:nth-of-type(5n+3) {
+	clear: both;
+}
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 565px) {
+
+input {
+	width: 60%;
+}
+
+}
+
+
+@media (min-width: 1138px) {
+
+figure {
+	/*display: inline-block;*/
+	/*float: left;*/
+}
+
+.container {
+	max-width: 1415px;
+}
+
+
+
+
+
+
+}
+
+
+
